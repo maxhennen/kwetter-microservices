@@ -1,0 +1,1456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Kwetter:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b599efde-03a8-4ab5-a192-9cff090b4e0d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_stormpath_sdk_stormpath_sdk_api_1_0_RC3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_stormpath_sdk_stormpath_sdk_impl_1_0_RC3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_api_0_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_2_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_jakarta_inject_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_jdk_http_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_soteria_javax_security_enterprise_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/authentication/JwTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/authentication/RandomToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/authentication/Secured.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/CORSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/AuthAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/JAXRSConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/persistence/UserDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kwetter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kwetter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/group/GroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/group/GroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/group/GroupDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/group/GroupDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/kweet/KweetDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/kweet/KweetDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/kweet/KweetDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/kweet/KweetDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/kweet/KweetDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/kweet/KweetDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/like/LikeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/like/LikeDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/like/LikeDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/like/LikeDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/like/LikeDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/like/LikeDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/user/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/user/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/user/UserDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/user/UserDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/dao/user/UserDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/domain/Details.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/domain/Details.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/domain/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/domain/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/domain/Kweet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/domain/Kweet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/domain/Like.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/domain/Like.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/domain/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/domain/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/rest/GroupAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/rest/KweetAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/rest/KweetAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/rest/LikeAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/rest/LikeAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/rest/UserAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/rest/UserAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/service/GroupService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/service/GroupService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/service/KweetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/service/KweetService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/service/LikeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/service/LikeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/utils/AuthenticationUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/utils/AuthenticationUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/utils/JPALoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/utils/JPALoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/views/AdminView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/views/AdminView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/views/ModeratorView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/views/ModeratorView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/views/RegisterView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/classes/views/RegisterView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/admin.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/admin.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/mod.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded/mod.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/group/GroupDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/group/GroupDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/group/GroupDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/group/GroupDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/kweet/KweetDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/kweet/KweetDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/kweet/KweetDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/kweet/KweetDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/kweet/KweetDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/kweet/KweetDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/like/LikeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/like/LikeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/like/LikeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/like/LikeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/like/LikeDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/like/LikeDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/user/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/user/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/user/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/user/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/user/UserDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/user/UserDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Details.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Details.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Kweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Kweet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Like.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Like.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/GroupAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/KweetAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/KweetAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/LikeAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/LikeAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/UserAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/UserAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/GroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/KweetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/KweetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/LikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/LikeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/AuthenticationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/AuthenticationUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/JPALoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/JPALoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/domain/UserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/service/KweetServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/service/KweetServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/service/LikeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/service/LikeServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/group/GroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/group/GroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/group/GroupDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/group/GroupDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/kweet/KweetDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/kweet/KweetDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/kweet/KweetDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/kweet/KweetDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/kweet/KweetDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/kweet/KweetDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/like/LikeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/like/LikeDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/like/LikeDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/like/LikeDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/like/LikeDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/like/LikeDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/user/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/user/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/user/UserDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/user/UserDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/user/UserDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Details.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/Details.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Kweet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/Kweet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Like.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/Like.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/GroupAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/KweetAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/KweetAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/LikeAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/LikeAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/UserAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/UserAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/GroupService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/GroupService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/KweetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/KweetService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/LikeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/LikeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/AuthenticationUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/AuthenticationUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/JPALoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/JPALoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/AdminView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/views/AdminView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/ModeratorView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/views/ModeratorView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/RegisterView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/views/RegisterView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/KweetServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/KweetServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/LikeServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/LikeServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/UserServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/mod.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/mod.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentatie/Kwetter analyse.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../documentatie/Kwetter analyse.docx" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Kwetter$UserServiceTest.ic" NAME="UserServiceTest Coverage Results" MODIFIED="1551307736041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Kwetter$Payara_5_184.ic" NAME="Payara 5.184 Coverage Results" MODIFIED="1554278809434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Kwetter$LikeServiceTest.ic" NAME="LikeServiceTest Coverage Results" MODIFIED="1551306539814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Kwetter$All_in_Kwetter.ic" NAME="All in Kwetter Coverage Results" MODIFIED="1554312039779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Kwetter$LikeServiceTest_findALlLikes.ic" NAME="LikeServiceTest.findALlLikes Coverage Results" MODIFIED="1551306482656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Kwetter$KweetServiceTest.ic" NAME="KweetServiceTest Coverage Results" MODIFIED="1551305805050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>service.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Kwetter" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rest/AuthAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1557730333772" expanded="true" signature="2159:2408" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/authentication/JwTokenFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.28/jersey-container-servlet-core-2.28.jar!/org/glassfish/jersey/servlet/ServletContainer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3162">
+              <caret line="228" selection-start-line="228" selection-end-line="228" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/user/UserDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rest/UserAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="55" selection-start-line="55" selection-end-line="67" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/authentication/RandomToken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rest/KweetAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1037">
+              <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/filter/CORSFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>per</find>
+      <find>enterpr</find>
+      <find>spring</find>
+      <find>hibernate</find>
+      <find>@applicationScoped</find>
+      <find>kweets</find>
+      <find>weld</find>
+      <find>sequence</find>
+      <find>login</find>
+      <find>username</find>
+      <find>Rol</find>
+      <find>role</find>
+      <find>httpservletresponse</find>
+      <find>registerView</find>
+      <find>&lt;repo</find>
+      <find>autowir</find>
+      <find>javax.s</find>
+      <find>com.sun</find>
+      <find>jersey</find>
+      <find>void</find>
+      <find>entity</find>
+      <find>illegal</find>
+      <find>edit</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\Users\maxhe\Documents\School\Fontys Semester 6\JEA\Kwetter\Kwetter</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/service/LikeService.java" />
+        <option value="$PROJECT_DIR$/src/test/service/GroupServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/service/LikeServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/persistence/UserPersistenceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/dao/user/UserDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/service/KweetServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/persistence/UserDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/authentication/CORSFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/LoginResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/kweet/KweetDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/KweetService.java" />
+        <option value="$PROJECT_DIR$/src/test/service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Details.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Like.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Location.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Following.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Follower.java" />
+        <option value="$PROJECT_DIR$/web/mod.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/kweet/KweetDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/JPALoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jwt/JWTFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jwt/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jwt/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jwt/JWTCredential.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jwt/TokenProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jwt/JWTAuthenticationMechanism.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jwt/JWTRememberMeIdentityStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jwt/AuthorizationIdentityStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jwt/AuthenticationIdentityStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/authentication/KeyGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/authentication/KeyGeneratorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/authentication/JwToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/authentication/Secured.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/authentication/TokenProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/user/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/user/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/user/UserDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/LikeAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/UserAPI.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Kweet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Token.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/EmailSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/AuthAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/authentication/RandomToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filter/CORSFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/KweetAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/authentication/JwTokenFilter.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Kwetter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Kwetter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Kwetter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="kwetter" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Users/maxhe/Documents/School/Fontys Semester 6/JEA/Kwetter/src/domain/user/Role.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557749753059" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="dynamic.classpath" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Proftaak/rekeningrijden" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="persistence" />
+      <recent name="dao.user" />
+      <recent name="service" />
+      <recent name="domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\maxhe\Documents\School\Fontys Semester 6\JEA\Kwetter\Kwetter\web" />
+      <recent name="E:\Users\maxhe\Documents\School\Fontys Semester 6\JEA\Kwetter\Kwetter\src\main\java\controller" />
+      <recent name="E:\Users\maxhe\Documents\School\Fontys Semester 6\JEA\Kwetter\Kwetter\META-INF" />
+      <recent name="E:\Users\maxhe\Documents\School\Fontys Semester 6\JEA\Kwetter\Kwetter\src\main\resources\META-INF" />
+      <recent name="E:\Users\maxhe\Documents\School\Fontys Semester 6\JEA\Kwetter\Kwetter\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="GlassFish Server.Payara 5.184">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Payara 5.184" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Payara 5.184" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Kwetter_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Kwetter:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Kwetter:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="LikeServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kwetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.LikeServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDAOTest.createUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kwetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="persistence" />
+      <option name="MAIN_CLASS_NAME" value="persistence.UserDAOTest" />
+      <option name="METHOD_NAME" value="createUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDAOTest.findUserByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kwetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="persistence" />
+      <option name="MAIN_CLASS_NAME" value="persistence.UserDAOTest" />
+      <option name="METHOD_NAME" value="findUserByEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDAOTest.getAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kwetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="persistence" />
+      <option name="MAIN_CLASS_NAME" value="persistence.UserDAOTest" />
+      <option name="METHOD_NAME" value="getAllUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kwetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="GlassFish Server.Payara 5.184" />
+      <item itemvalue="JUnit.LikeServiceTest" />
+      <item itemvalue="JUnit.UserServiceTest" />
+      <item itemvalue="JUnit.UserDAOTest.createUser" />
+      <item itemvalue="JUnit.UserDAOTest.getAllUsers" />
+      <item itemvalue="JUnit.UserDAOTest.findUserByEmail" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserDAOTest.findUserByEmail" />
+        <item itemvalue="JUnit.UserDAOTest.getAllUsers" />
+        <item itemvalue="JUnit.UserDAOTest.createUser" />
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.LikeServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showModules" value="false" />
+    <option name="showFilesets" value="false" />
+    <option name="showFiles" value="false" />
+    <option name="showImplicitBeans" value="false" />
+    <option name="showInfrastructureBeans" value="false" />
+    <option name="showDoc" value="false" />
+    <option name="showGraph" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b599efde-03a8-4ab5-a192-9cff090b4e0d" name="Default" comment="" />
+      <created>1550481771787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550481771787</updated>
+      <workItem from="1550481775721" duration="34000" />
+      <workItem from="1550481887494" duration="1145000" />
+      <workItem from="1550483589109" duration="1667000" />
+      <workItem from="1550491279974" duration="2592000" />
+      <workItem from="1550606300210" duration="5329000" />
+      <workItem from="1550650649590" duration="77000" />
+      <workItem from="1550650808528" duration="671000" />
+      <workItem from="1551168240977" duration="1352000" />
+      <workItem from="1551169774640" duration="241000" />
+      <workItem from="1551170048433" duration="4269000" />
+      <workItem from="1551175141935" duration="4055000" />
+      <workItem from="1551200741042" duration="2182000" />
+      <workItem from="1551269528373" duration="4713000" />
+      <workItem from="1551288302523" duration="17546000" />
+      <workItem from="1551340298946" duration="1898000" />
+      <workItem from="1551343056642" duration="2105000" />
+      <workItem from="1551355387654" duration="11335000" />
+      <workItem from="1551450195456" duration="3238000" />
+      <workItem from="1552138290920" duration="1404000" />
+      <workItem from="1552208794173" duration="13502000" />
+      <workItem from="1552292137315" duration="14188000" />
+      <workItem from="1552377175542" duration="1335000" />
+      <workItem from="1552383645275" duration="652000" />
+      <workItem from="1552388042103" duration="11825000" />
+      <workItem from="1552471037481" duration="12604000" />
+      <workItem from="1552564685363" duration="6995000" />
+      <workItem from="1552896826567" duration="8134000" />
+      <workItem from="1553004837522" duration="215000" />
+      <workItem from="1553012622619" duration="6089000" />
+      <workItem from="1553067955985" duration="3589000" />
+      <workItem from="1553105048257" duration="121000" />
+      <workItem from="1553107369070" duration="2311000" />
+      <workItem from="1553154201177" duration="7814000" />
+      <workItem from="1553172577909" duration="6421000" />
+      <workItem from="1553180924727" duration="8751000" />
+      <workItem from="1553279480120" duration="12154000" />
+      <workItem from="1553334218325" duration="597000" />
+      <workItem from="1553350150005" duration="6329000" />
+      <workItem from="1553601399651" duration="153000" />
+      <workItem from="1553608441917" duration="1290000" />
+      <workItem from="1553676661482" duration="39000" />
+      <workItem from="1554139210698" duration="4007000" />
+      <workItem from="1554222082763" duration="5881000" />
+      <workItem from="1554274749972" duration="21704000" />
+      <workItem from="1554300450520" duration="9572000" />
+      <workItem from="1554316542571" duration="600000" />
+      <workItem from="1554375692876" duration="6222000" />
+      <workItem from="1554792200861" duration="1284000" />
+      <workItem from="1554880440074" duration="15223000" />
+      <workItem from="1554980296778" duration="8472000" />
+      <workItem from="1555089854479" duration="359000" />
+      <workItem from="1555146596883" duration="1145000" />
+      <workItem from="1555151066764" duration="2246000" />
+      <workItem from="1555182540361" duration="9531000" />
+      <workItem from="1555328224697" duration="8616000" />
+      <workItem from="1555396935392" duration="258000" />
+      <workItem from="1555411767181" duration="2640000" />
+      <workItem from="1555416993551" duration="990000" />
+      <workItem from="1555421580970" duration="1650000" />
+      <workItem from="1555431843889" duration="636000" />
+      <workItem from="1555483555556" duration="12178000" />
+      <workItem from="1555519061143" duration="14089000" />
+      <workItem from="1555585015386" duration="8222000" />
+      <workItem from="1555838990820" duration="606000" />
+      <workItem from="1557729828847" duration="12949000" />
+      <workItem from="1557816546471" duration="84000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserServiceTest - 2019.04.03 at 19h 31m 52s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.04.03 at 19h 31m 57s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.04.03 at 19h 34m 55s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.04.03 at 19h 35m 00s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_createUser - 2019.04.03 at 19h 51m 00s.xml">
+      <configuration name="UserDAOTest.createUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_getAllUsers - 2019.04.03 at 19h 53m 24s.xml">
+      <configuration name="UserDAOTest.getAllUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_findUserByEmail - 2019.04.03 at 19h 54m 37s.xml">
+      <configuration name="UserDAOTest.findUserByEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_findUserByEmail - 2019.04.03 at 20h 06m 27s.xml">
+      <configuration name="UserDAOTest.findUserByEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_findUserByEmail - 2019.04.03 at 20h 06m 34s.xml">
+      <configuration name="UserDAOTest.findUserByEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_findUserByEmail - 2019.04.03 at 20h 10m 16s.xml">
+      <configuration name="UserDAOTest.findUserByEmail" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="340125000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.521197" visible="true" weight="0.077852346" />
+      <window_info id="Structure" order="1" sideWeight="0.37580645" side_tool="true" weight="0.14818764" />
+      <window_info id="Persistence" order="2" sideWeight="0.37391305" side_tool="true" weight="0.18389262" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.47880298" side_tool="true" weight="0.17449665" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" sideWeight="0.45054945" side_tool="true" weight="0.2342282" />
+      <window_info id="JavaEE:App" order="9" sideWeight="0.45054945" side_tool="true" weight="0.2342282" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731544" weight="0.34560907" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4206799" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026846" side_tool="true" weight="0.3233618" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.25354108" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32905984" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.19176598" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3295302" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="CDI" order="9" weight="0.6407767" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.25033557" />
+      <window_info anchor="right" id="JSF" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" weight="0.3295302" />
+      <window_info anchor="right" id="Maven" order="13" weight="0.3295302" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/views/AdminView.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/config/SecurityFilter.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/service/KweetServiceTest.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/authentication/JwTokenFilter.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/authentication/JwTokenFilter.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/authentication/JwTokenFilter.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/rest/KweetAPI.java</url>
+          <line>77</line>
+          <properties class="rest.KweetAPI" method="findByEmail">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GlassfishConfiguration">
+        <watch expression="sessionMap" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/admin.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/mod.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/kweet/KweetDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/kweet/KweetDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.11.RELEASE/spring-security-config-5.0.11.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.11.RELEASE/spring-security-core-5.0.11.RELEASE.jar!/org/springframework/security/authentication/jaas/JaasAuthenticationToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/JWTFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/SecurityConfiguration.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.11.RELEASE/spring-security-core-5.0.11.RELEASE.jar!/org/springframework/security/core/Authentication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/JWTCredential.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/TokenProvider.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/JWTAuthenticationMechanism.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/JWTRememberMeIdentityStore.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/Constants.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/AuthorizationIdentityStore.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jwt/AuthenticationIdentityStore.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/authentication/KeyGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/authentication/KeyGeneratorImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="19" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/authentication/TokenProvider.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="169" column="39" selection-start-line="169" selection-start-column="39" selection-end-line="169" selection-end-column="39" />
+          <folding>
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#1926#1927#0" expanded="true" />
+            <element signature="e#1979#1980#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#3060#3061#0" expanded="true" />
+            <element signature="e#3117#3118#0" expanded="true" />
+            <element signature="e#3810#3811#0" expanded="true" />
+            <element signature="e#3850#3851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/user/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="102" column="33" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/user/UserDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2062#2063#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2146#2147#0" expanded="true" />
+            <element signature="e#2173#2174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/LikeAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/JAXRSConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../Downloads/payara-5.184/payara5/glassfish/modules/javax.ws.rs-api.jar!/javax/ws/rs/core/HttpHeaders.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Follower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Kweet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="86" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Following.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/JPALoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="63" column="65" selection-start-line="63" selection-start-column="65" selection-end-line="63" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/group/GroupDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/group/GroupDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/glassfish-web.xml">
+      <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="110" column="26" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/EmailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/authentication/Secured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../Downloads/payara-5.184/payara5/glassfish/modules/javax.ws.rs-api.jar!/javax/ws/rs/container/ContainerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.28/jersey-server-2.28.jar!/org/glassfish/jersey/server/ContainerFilteringStage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="135" column="23" lean-forward="true" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/StringTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="348" selection-start-line="348" selection-end-line="348" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/AuthAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1557730333772" expanded="true" signature="2159:2408" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.28/jersey-container-servlet-core-2.28.jar!/org/glassfish/jersey/servlet/ServletContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="228" selection-start-line="228" selection-end-line="228" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/user/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/UserAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="55" selection-start-line="55" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/authentication/RandomToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/KweetAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filter/CORSFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/authentication/JwTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Kwetter:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>JPA (Kwetter)|JPA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>activemq-all-5.15.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kwetter</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

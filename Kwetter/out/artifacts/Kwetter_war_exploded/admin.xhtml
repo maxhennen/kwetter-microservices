@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Admin</title>
+</h:head>
+<h:body>
+    <h3>Admin</h3>
+    <br/><br/>
+    <h:panelGroup id="pgAdmin">
+        <div style="float:left; overflow-y: auto; height: 100px;">
+            <h:dataTable value="#{adminView.users}" var = "user">
+                <h:column>
+                    <f:facet name="header">
+                        User
+                    </f:facet>
+                    <h:outputText value="#{user.name}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">
+                        Role
+                    </f:facet>
+                    <h:outputText value="#{moderatorView.getGroupByEmail(user.email).groupname}"/>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">
+                        Change to
+                    </f:facet>
+                    <h:form>
+                        <h:selectOneMenu value="#{adminView.selectedGroup}">
+                            <f:selectItems value="#{adminView.groups}"/>
+                        </h:selectOneMenu>
+                    </h:form>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">
+                        Save
+                    </f:facet>
+                    <h:form>
+                        <h:commandButton action="#{adminView.edit(user.email, adminView.selectedGroup.groupname)}" value="Change" update="pgAdmin"/>
+                    </h:form>
+                </h:column>
+            </h:dataTable>
+        </div>
+    </h:panelGroup>
+
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+    <h:form>
+        <h:commandButton action="#{loginView.logout}" value="Logout"/>
+    </h:form>
+</h:body>
+</html>
